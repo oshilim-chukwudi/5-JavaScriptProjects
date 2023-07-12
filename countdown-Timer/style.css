@@ -10,9 +10,53 @@ body {
   background-position: center center;
   font-family: "poppins", sans-serif;
   display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   margin: 0;
 }
 
 h1 {
-  color: gold;
+  color: purple;
+  font-size: 4rem;
+  margin-top: -10rem;
+  font-weight: normal;
+  margin-left: 7rem;
+}
+
+.datecontainer {
+  display: flex;
+  margin-top: -3rem;
+}
+
+.big-textcontainer {
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.datecontainer {
+  text-align: center;
+  justify-content: space-between;
+}
+
+.spandays {
+  margin-right: 2rem;
+  font-weight: lighter;
+  color: red;
+}
+
+.spanhours {
+  margin-right: 2rem;
+  font-weight: normal;
+  color: green;
+}
+.spanminutes {
+  margin-right: 2rem;
+  font-weight: normal;
+  color: blue;
+}
+.spanseconds {
+  margin-right: 2rem;
+  color: orange;
 }
