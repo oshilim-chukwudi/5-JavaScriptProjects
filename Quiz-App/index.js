@@ -1,0 +1,42 @@
+const quizData = [
+  {
+    question: "How old is Ronaldo",
+    A: "10",
+    B: "37",
+    C: "35",
+    D: "31",
+    correct: "B",
+  },
+  {
+    question: "Where is the capital of Canada",
+    A: "Ottawa",
+    B: "Toronto",
+    C: "Vancouver",
+    D: "Calgary",
+    correct: "A",
+  },
+  {
+    question: "Where is the Prime Minister of Canada",
+    A: "Justin Trudeau",
+    B: "Biden Joe",
+    C: "Donald Trump",
+    D: "Joe Biden",
+    correct: "D",
+  },
+  {
+    question: "Where is the capital of USA",
+    A: "New York",
+    B: "Texas",
+    C: "Washighton DC",
+    D: "Las Vegas",
+    correct: "C",
+  },
+  {
+    question: "What is the most used programming language Framework in 2023",
+    A: "Vue",
+    B: "React",
+    C: "Angular",
+    D: "Node JS",
+    correct: "B",
+  },
+];
